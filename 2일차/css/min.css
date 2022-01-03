@@ -29,7 +29,8 @@
 }
 
 .container {
-   width: 800px;
+   height: 100%;
+    
     
 }
 
@@ -44,4 +45,10 @@
 .text {
     font-size: 100px;
     color: aqua
+}
+
+.left-box {
+    width: 100%;
+    height: 100px;
+    background: red;
 }
