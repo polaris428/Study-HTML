@@ -22,11 +22,30 @@
     background: white;
     border: none;
     border-radius: 5px;
-    margin:auto;
-    display:block;
-    position: relative;
-    top: 100px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    width: 150px;
     
-      
+    
+}
+.main-content{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    
+}
+.explain-box{
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    position: relative;
+    top: -40px;
+    
+
+    
     
 }
