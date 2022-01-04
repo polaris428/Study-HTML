@@ -1,0 +1,44 @@
+
+.cart-background {
+    width: 100%;
+    background-color: #c2d3de;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+td,th{
+   /* border: 1px solid black;*/
+}
+.cart-table td{
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+.cell-long {
+    width: 300px;
+}
+
+td {
+    color: gray
+}
+.total{
+    color: darkblue;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    float: right;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+    
+}
