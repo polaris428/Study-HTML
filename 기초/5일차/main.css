@@ -73,13 +73,41 @@ p,h4,h3,h2,h1,span{
     transform: rotate(0.03deg)
 }
 
-.flex-item{
+.nav-item{
     
-    margin: 5px;
+    margin-right: 10px;
 }
-.flex-container{
+.nav-container{
+    
    
     display: flex;
-    background-color: orangered
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+    
 
+}
+@media screen and (max-width :1200px){
+    .main-title {
+        font-size: 30px;
+       
+        
+    }
+    .nav-item {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width :992px){
+    
+    .nav-item {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width :768px){
+    
+    .nav-item {
+        font-size: 10px;
+    }
 }
