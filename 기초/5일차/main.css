@@ -1,17 +1,22 @@
 @font-face {
-    font-family : '폰트';
-    src : url(font/NanumSquareRoundL.ttf);
-    
+    font-family: '폰트';
+    src: url(font/NanumSquareRoundL.ttf);
+
 }
-div,input,textarea {
+
+div,
+input,
+textarea {
     box-sizing: border-box;
 }
+
 body {
     margin: 0px;
     font-family: '폰트';
-   
+
 }
-.main-background{
+
+.main-background {
     width: 100%;
     height: 500px;
     background-image: url(shoes.jpg);
@@ -20,16 +25,17 @@ body {
     background-position: center;
     padding: 1px;
 
-    
+
 }
-.main-title{
+
+.main-title {
     color: white;
     font-size: 40px;
     margin-top: 200px;
     text-align: center
-    
 }
-.main-button{
+
+.main-button {
     padding: 15px;
     font-size: 20px;
     background: white;
@@ -40,16 +46,18 @@ body {
     right: 0px;
     margin: auto;
     width: 150px;
-    
-    
+
+
 }
-.main-content{
+
+.main-content {
     text-align: center;
     color: white;
     padding: 10px;
-    
+
 }
-.explain-box{
+
+.explain-box {
     width: 700px;
     margin: auto;
     padding: 20px;
@@ -57,57 +65,96 @@ body {
     background-color: #eee;
     position: relative;
     top: -40px;
-    
 
-    
-    
+
+
+
 }
-input{
+
+input {
     padding: 10px;
     font-size: 15px;
     border: 1px solid block;
     border-radius: 5px;
-   
+
 }
-p,h4,h3,h2,h1,span{
+
+p,
+h4,
+h3,
+h2,
+h1,
+span {
     transform: rotate(0.03deg)
 }
 
-.nav-item{
-    
+.nav-item {
+
     margin-right: 10px;
 }
-.nav-container{
-    
-   
+
+.nav-container {
+
+
     display: flex;
     height: 50px;
     align-items: center;
     padding: 10px;
-    
+
 
 }
-@media screen and (max-width :1200px){
+
+.info {
+    display: flex
+}
+
+.info div {
+    width: 100%;
+}
+
+.info div div {
+    width: 100px;
+    margin: auto
+}
+
+.info-info {
+    display: flex;
+
+}
+
+@media screen and (max-width :1200px) {
     .main-title {
         font-size: 30px;
-       
-        
+
+
     }
+
     .nav-item {
         font-size: 12px;
     }
-}
 
-@media screen and (max-width :992px){
-    
-    .nav-item {
-        font-size: 12px;
+    .info-info {
+        display: block;
+
     }
 }
 
-@media screen and (max-width :768px){
-    
+@media screen and (max-width :992px) {
+
+    .nav-item {
+        font-size: 12px;
+    }
+    .info {
+    display: block;
+}
+}
+
+@media screen and (max-width :768px) {
+
     .nav-item {
         font-size: 10px;
     }
+    
 }
+
+.info-info {}
