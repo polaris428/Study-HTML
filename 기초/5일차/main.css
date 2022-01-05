@@ -1,5 +1,5 @@
 @font-face {
-    font-family : '이쁜 폰트';
+    font-family : '폰트';
     src : url(font/NanumSquareRoundL.ttf);
     
 }
@@ -8,7 +8,7 @@ div,input,textarea {
 }
 body {
     margin: 0px;
-    font-family: '이쁜폰트';
+    font-family: '폰트';
    
 }
 .main-background{
@@ -71,4 +71,15 @@ input{
 }
 p,h4,h3,h2,h1,span{
     transform: rotate(0.03deg)
+}
+
+.flex-item{
+    
+    margin: 5px;
+}
+.flex-container{
+   
+    display: flex;
+    background-color: orangered
+
 }
