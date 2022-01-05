@@ -39,6 +39,37 @@ button{
     color: white;
     padding: 10px;
     text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    
+}
+button:hover{
+      background-color: skyblue;
+}
+button:active{
+    background-color: blue;
+}
+button:focus{
+    background-color: gray;
+}
+
+.input-test {
+    font-size: 20px;
+    border: none;
     
     
+}
+.input-test:focus {
+    border: 3px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+.custom-link:link{
+    color: aqua;
+}
+.custom-link:visited{
+    color: black;
 }
